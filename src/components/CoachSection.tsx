@@ -27,14 +27,14 @@ export const CoachSection = () => {
       <div className="container max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            Meet Your Coach — <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Shruti Aggarwal</span>
+            Meet Your Coach — <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Pramita Bhardwaj</span>
           </h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
           {/* Coach info */}
           <div>
-            <h3 className="text-2xl font-bold mb-4 text-foreground">Hi, I'm Shruti</h3>
+            <h3 className="text-2xl font-bold mb-4 text-foreground">Hi, I'm Pramita</h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
               At Truecosmic I guide students through Neville's teachings with an emphasis on clarity, structure, and real-world follow-through. Expect straightforward guidance and steps you can actually take.
             </p>
@@ -58,7 +58,7 @@ export const CoachSection = () => {
               className="w-full md:w-auto bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold px-8 shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:shadow-[0_0_40px_rgba(168,85,247,0.6)] hover:scale-105 transition-all"
               onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              Book with Shruti — Free 30 Minutes
+              Book with Pramita — Free 30 Minutes
             </Button>
           </div>
 
@@ -67,7 +67,7 @@ export const CoachSection = () => {
             <div className="aspect-square rounded-2xl overflow-hidden border-2 border-primary/30 shadow-[0_0_40px_rgba(0,229,255,0.2)]">
               <img 
                 src={valentinePhoto} 
-                alt="Shruti Aggarwal - Clarity & Transformation Coach" 
+                alt="Pramita Bhardwaj - Clarity & Transformation Coach" 
                 className="w-full h-full object-cover"
               />
             </div>

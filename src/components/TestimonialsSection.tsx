@@ -15,7 +15,7 @@ export const TestimonialsSection = () => {
       avatar: testimonialAvatar1,
     },
     {
-      text: "Shruti made it practical. I knew exactly what to do next.",
+      text: "Pramita made it practical. I knew exactly what to do next.",
       author: "Client B",
       role: "",
       avatar: testimonialAvatar2,

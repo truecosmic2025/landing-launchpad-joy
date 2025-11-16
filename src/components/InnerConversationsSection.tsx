@@ -59,7 +59,7 @@ export const InnerConversationsSection = () => {
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8"
             onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            Try It with Shruti — Free
+            Try It with Pramita — Free
           </Button>
         </div>
       </div>

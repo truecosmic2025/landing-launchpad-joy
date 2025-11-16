@@ -38,10 +38,10 @@ export const MethodSection = () => {
       <div className="container max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            Why <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Shruti's Approach</span> Works
+            Why <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Pramita's Approach</span> Works
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Shruti's working model
+            Pramita's working model
           </p>
           <div className="max-w-md mx-auto mb-8">
             <img 
