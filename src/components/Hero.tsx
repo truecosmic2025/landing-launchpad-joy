@@ -24,15 +24,15 @@ export const Hero = () => {
       <div className="container relative z-10 max-w-5xl mx-auto text-center">
         {/* Main headline */}
         <h1 className="mb-6 text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-          Clarity First.{" "}
+          One Shift.{" "}
           <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">
-            Transformation Next.
+            New Direction.
           </span>
         </h1>
 
         {/* Subheadline */}
         <p className="mb-8 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-          Reserve a <span className="text-primary font-semibold">free 30-minute clarity consult</span> with <span className="font-semibold text-foreground">Shruti Aggarwal</span>. We'll pinpoint your main bottleneck, select <span className="font-semibold text-foreground">one technique to start</span> (Inner Speech / SATS / Revision), and share the <span className="font-semibold text-foreground">right coaching path</span> to build momentum—without overwhelm.
+          Claim a <span className="text-primary font-semibold">free 30-minute clarity consult</span> with <span className="font-semibold text-foreground">Pramita Bhardwaj</span>. You'll get laser-focused on what's really holding you back, choose <span className="font-semibold text-foreground">one practice to work with first</span> (Inner Speech / SATS / Revision), and design a gentle but effective coaching path to move you forward fast—without confusion or pressure.
         </p>
 
         {/* Trust badges */}
