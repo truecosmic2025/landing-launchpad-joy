@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Sparkles, CheckCircle2 } from "lucide-react";
+import { openClauddeWidget } from "@/lib/claudde";
 import heroBackground from "@/assets/hero-background.jpg";
 
 export const Hero = () => {
@@ -49,7 +50,10 @@ export const Hero = () => {
           <Button 
             size="lg" 
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-4 sm:px-8 text-base sm:text-lg h-auto sm:h-14 py-3 sm:py-0 whitespace-normal w-full sm:w-auto text-center break-words max-w-full"
-            onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => {
+              document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' });
+              openClauddeWidget();
+            }}
           >
             Book Your Clarity Consultation
           </Button>
