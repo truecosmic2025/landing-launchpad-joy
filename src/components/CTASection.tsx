@@ -30,7 +30,10 @@ export const CTASection = () => {
         <Button 
           size="lg" 
           className="w-full sm:w-auto max-w-full text-center break-words whitespace-normal bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold px-4 sm:px-12 text-base sm:text-lg h-auto sm:h-14 py-3 sm:py-0 mb-4 shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:shadow-[0_0_40px_rgba(168,85,247,0.6)] hover:scale-100"
-          onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
+          onClick={() => {
+            document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' });
+            window.Claudde?.open();
+          }}
         >
           Book Your Clarity Consultation — Act Now
         </Button>

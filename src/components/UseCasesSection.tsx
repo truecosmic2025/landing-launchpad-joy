@@ -64,7 +64,10 @@ export const UseCasesSection = () => {
           <Button 
             size="lg" 
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8"
-            onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => {
+              document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' });
+              window.Claudde?.open();
+            }}
           >
             Start with a Free 1:1
           </Button>
